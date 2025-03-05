@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="bg-gray-100 w-full h-[100px] flex items-center justify-between px-4">
+        <div class="text-lg font-semibold">Doodly</div>
+    
+        <nav class="flex gap-10 items-center justify-around py-7 ">
+            <div>
+                <form action="/search" method="GET" class="rounded-full w-[20rem] mr-10">
+                    <input type="text" name="query" placeholder="Search..." required class="w-full p-2 rounded-full">
+                </form>
+            </div>
+            
+            <div class="flex gap-6 ">
+                <a href="a">Planners</a>
+                <a href="a">Journals & Notebooks</a>
+                <a href="a">Sketchbook</a>
+            </div>
+    
+            <div class="flex gap-4">
+                <button class="bg-purple-300  rounded-full py-2 px-6 hover:bg-purple-500">Login</button>
+                <button class="bg-white  rounded-full py-2 px-6 hover:bg-purple-500">Sign Up</button>
+            </div>
+        </nav>
+    </main>
+    <section class="h-screen flex items-center justify-start text-left px-12 bg-[url('./images/hero.jpg')] bg-cover bg-center bg-no-repeat relative">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    
+        <div class="relative w-full max-w-4xl pl-12 text-white">
+            <!-- Left Side (Text) -->
+            <h1 class="text-4xl md:text-6xl font-bold">
+               Plan,</h1>
+               <h1 class="text-4xl md:text-6xl font-bold">
+                Create,</h1>
+                <h1 class="text-4xl md:text-6xl font-bold">
+                    Inspire,</h1>
+
+            <p class="mt-4 text-lg">
+                Discover beautifully crafted planners, journals, and 
+                <br>sketchbooks designed for creativity and productivity. <br>
+                Personalize your space, organize your thoughts,<br> and make every page uniquely yours.            </p>
+            <div class="mt-6">
+                <a href="#" class="bg-purple-300 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:bg-purple-500 transition">
+                    Shop Now
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+</html>
